@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Closure</title>
+	<script type="text/javascript">
+		function addout(a,b){
+			function addin()
+			{
+				return "Addition is: "+(a+b);
+			}
+			return addin();
+		}
+		var x=addout(7,15);
+		document.write(x);
+	</script>
+
+</head>
+<body>
+
+</body>
+</html>
