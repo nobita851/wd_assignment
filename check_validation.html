@@ -1,0 +1,17 @@
+<html>
+    <body>
+        <script>
+            function checher(){
+                var x=/E00/;
+                if (x.test(document.getElementById("1").value))
+                alert("Valid Username");
+                else
+                alert("Invalid Username");
+            }
+        </script>
+        <form >
+        Enter username    <input id="1" type="text" name="uname"/>
+        <button onclick="checher()">submit</button>
+        </form>
+    </body>
+</html>
